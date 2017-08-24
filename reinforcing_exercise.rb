@@ -28,7 +28,6 @@ class Trip
   end
 
   def begin_trip
-
     puts "Trip starts."
     @destination.each_cons(2) do |this|
       puts "Travels from #{this.join(" to ")}"
